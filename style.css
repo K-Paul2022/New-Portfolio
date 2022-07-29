@@ -82,12 +82,12 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background:crimson;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
   
-.nav-list {
+.menu {
     display: flex;
     margin-right: 2rem;
   }
@@ -97,17 +97,17 @@ a {
       justify-content: center;
     }
   
-    .nav-list {
+    .menu {
       margin: 0 1rem;
     }
   }
   
-  .nav-list a {
+  .menu a {
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
   }
   
-  .nav-list a:hover {
-    background: var(--main-blue);
+  .menu a:hover {
+    background:chocolate;
   }
